@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Ejercicio3.Animales.Gato</OriginalElement>
+  <nodes>
+    <node x="272.0" y="311.0">Ejercicio3.Animales.Lobo</node>
+    <node x="794.5" y="220.0">Ejercicio3.Felino</node>
+    <node x="573.0" y="311.0">Ejercicio3.Animales.Gato</node>
+    <node x="426.75" y="-21.0">Ejercicio3.Animal</node>
+    <node x="874.0" y="311.0">Ejercicio3.Animales.Leon</node>
+    <node x="184.0" y="220.0">Ejercicio3.Canido</node>
+    <node x="-29.0" y="311.0">Ejercicio3.Animales.Perro</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Ejercicio3.Animales.Leon" target="Ejercicio3.Felino" relationship="GENERALIZATION">
+      <point x="0.0" y="-95.5" />
+      <point x="1014.5" y="286.0" />
+      <point x="864.0" y="286.0" />
+      <point x="0.0" y="20.5" />
+    </edge>
+    <edge source="Ejercicio3.Canido" target="Ejercicio3.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-20.5" />
+      <point x="262.0" y="195.0" />
+      <point x="567.25" y="195.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="Ejercicio3.Animales.Gato" target="Ejercicio3.Felino" relationship="GENERALIZATION">
+      <point x="0.0" y="-95.5" />
+      <point x="713.5" y="286.0" />
+      <point x="864.0" y="286.0" />
+      <point x="0.0" y="20.5" />
+    </edge>
+    <edge source="Ejercicio3.Animales.Perro" target="Ejercicio3.Canido" relationship="GENERALIZATION">
+      <point x="0.0" y="-95.5" />
+      <point x="111.5" y="286.0" />
+      <point x="262.0" y="286.0" />
+      <point x="0.0" y="20.5" />
+    </edge>
+    <edge source="Ejercicio3.Felino" target="Ejercicio3.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-20.5" />
+      <point x="864.0" y="195.0" />
+      <point x="567.25" y="195.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="Ejercicio3.Animales.Lobo" target="Ejercicio3.Canido" relationship="GENERALIZATION">
+      <point x="0.0" y="-95.5" />
+      <point x="412.5" y="286.0" />
+      <point x="262.0" y="286.0" />
+      <point x="0.0" y="20.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8803986710963457" showDependencies="false" x="595.081886792452" y="299.9790566037734" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
