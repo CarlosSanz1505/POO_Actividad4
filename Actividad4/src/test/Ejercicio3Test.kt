@@ -5,9 +5,6 @@ import Ejercicio3.Animales.Leon
 import Ejercicio3.Animales.Lobo
 import Ejercicio3.Animales.Perro
 
-val output: (Any?) -> Unit = ::println
-val input = ::readlnOrNull
-
 object Ejercicio3Test {
     @JvmStatic
     fun run() {

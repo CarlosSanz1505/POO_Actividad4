@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Ejercicio5.Ventana</OriginalElement>
+  <nodes>
+    <node x="269.5349462588232" y="70.78985797745771">Ejercicio5.Persona</node>
+    <node x="220.1289830988383" y="486.28519091250786">Ejercicio5.Ventana</node>
+    <node x="-180.41246808615847" y="194.81374578679393">Ejercicio5.ListaPersonas</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Ejercicio5.Ventana" target="Ejercicio5.Persona" relationship="CREATE">
+      <point x="41.90596315998491" y="-132.0" />
+      <point x="0.0" y="113.99999999999999" />
+    </edge>
+    <edge source="Ejercicio5.Ventana" target="Ejercicio5.ListaPersonas" relationship="CREATE">
+      <point x="0.0" y="-132.0" />
+      <point x="419.12898309883826" y="316.2898579774577" />
+      <point x="181.0" y="6.97611219066377" />
+    </edge>
+    <edge source="Ejercicio5.ListaPersonas" target="Ejercicio5.Persona" relationship="TO_MANY">
+      <point x="181.0" y="-107.0" />
+      <point x="-191.5" y="17.523887809336216" />
+    </edge>
+    <edge source="Ejercicio5.Ventana" target="Ejercicio5.ListaPersonas" relationship="TO_ONE">
+      <point x="-199.0" y="0.0" />
+      <point x="0.5875319138415307" y="618.2851909125079" />
+      <point x="0.0" y="114.49999999999997" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9186875891583454" showDependencies="true" x="335.2577639751553" y="440.05962732919255" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
